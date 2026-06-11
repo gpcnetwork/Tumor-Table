@@ -1,0 +1,8 @@
+{
+  "source_file": "doc/tumortable2025/backward_compatibility_to_v1.2.sas",
+  "source_blob_sha": "15b0f9099ffc14969b63ac6b253d41069b8b277d",
+  "source_commit": "2ae5d827670eabaf11d7cb94141ea55655bc720f",
+  "tier": "real_data",
+  "notes": "Caller for the repo %version backward-compatibility macro (designed to be called with a version macro var). version=tumor_v2025 triggers the rename branch; the macro runs verbatim against a mock indata.tumor_new declaring all 665 camelCase v2025 fields, renaming them to v1.2 NAACCR names. Verified all 665 NAACCR names present post-rename.",
+  "bundle": "t004_macro_version_backcompat"
+}

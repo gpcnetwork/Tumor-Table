@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-11T18:18:40.071552Z",
+  "_captured_run_id": "r_019eb7e85cf874b3b208fe060a323ed1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote tumor01 (15 rows, 5 columns).",
+    "NOTE: Output dataset work.dxyear_dist has 14 observations and 3 variables.",
+    "NOTE: Output dataset work.dxage_means has 1 observations and 11 variables."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

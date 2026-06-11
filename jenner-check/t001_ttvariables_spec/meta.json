@@ -1,0 +1,8 @@
+{
+  "source_file": "scr/TUMOR TABLE QC SCRIPT.sas",
+  "source_blob_sha": "efbf0a33810170d035e49c60fdff27027b2c6594",
+  "source_commit": "2ae5d827670eabaf11d7cb94141ea55655bc720f",
+  "tier": "real_data",
+  "notes": "Verbatim ttvariables NAACCR spec DATA step from the QC script (777 vars), summarised by flag x timing crosstab and a priority-variable listing. No external data needed.",
+  "bundle": "t001_ttvariables_spec"
+}

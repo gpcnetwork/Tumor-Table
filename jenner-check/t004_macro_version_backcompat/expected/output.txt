@@ -1,0 +1,26 @@
+                      Backward-compatibility rename applied: Version 1.2 NAACCR names now present                       
+
+                      Backward-compatibility rename applied: Version 1.2 NAACCR names now present                       
+
+renamed_v12_naaccr_columns
+--------------------------
+                       665
+                                  Sample of resulting Version 1.2 NAACCR column names                                   
+
+                         NAME
+-----------------------------
+           ABSTRACTED_BY_N570
+      ADDR_AT_DX_COUNTRY_N102
+         ADDR_AT_DX_STATE_N80
+   ADDR_CURRENT_COUNTRY_N1832
+     ADDR_CURRENT_STATE_N1820
+ADENOID_CYSTIC_BASALOID_N3803
+             ADENOPATHY_N3804
+AFP_POST_ORCHIECTOMY_LA_N3805
+AFP_POST_ORCHIECTOMY_RA_N3806
+AFP_PRETREATMENT_INTERP_N3809
+AFP_PRETREATMENT_LAB_VA_N3810
+AFP_PRE_ORCHIECTOMY_LAB_N3807
+AFP_PRE_ORCHIECTOMY_RAN_N3808
+        AGE_AT_DIAGNOSIS_N230
+                 AJCC_ID_N995

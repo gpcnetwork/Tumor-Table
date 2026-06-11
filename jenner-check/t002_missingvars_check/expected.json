@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-11T18:16:58.174819Z",
+  "_captured_run_id": "r_019eb7e6cf907d11913e16bc7b343db6",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Multi-output DATA step splits stream into: missingvars extravars includedvars",
+    "NOTE: PROC PRINT completed: 19 observations printed, 3 variables",
+    "NOTE: PROC PRINT completed: 12 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-06-11T18:21:48.381219Z",
+  "_captured_run_id": "r_019eb7eb3d5f78d0baae2303cf34e8d3",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote tumor (2 rows, 665 columns).",
+    "NOTE: PROC CONTENTS: OUT=renamed created with 665 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

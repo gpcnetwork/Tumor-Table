@@ -1,0 +1,40 @@
+                       PCORnet Tumor Table v1.2 specification: variable count by flag and timing                        
+
+                                                   The FREQ Procedure
+
+Table of flag by timing
+
+flag     |         1 |         2 |         3 |      Total
+---------+-----------+-----------+-----------+-----------
+NORMAL   |        59 |         1 |         0 |         60
+---------+-----------+-----------+-----------+-----------
+PRIORITY |         2 |        15 |         1 |         18
+---------+-----------+-----------+-----------+-----------
+PRIVATE  |        22 |         0 |         0 |         22
+---------+-----------+-----------+-----------+-----------
+Total    |        83 |        16 |         1 |        100
+
+                                  Priority variables in the tumor table specification                                   
+
+
+                    VARIABLE      FLAG  TIMING
+----------------------------  --------  ------
+PATID                         PRIORITY  1
+TUMOR_RECORD_NUMBER_N60       PRIORITY  1
+RACE1_N160                    PRIORITY  2
+RACE2_N161                    PRIORITY  2
+RACE3_N162                    PRIORITY  2
+RACE4_N163                    PRIORITY  2
+RACE5_N164                    PRIORITY  2
+SPANISH_HISPANIC_ORIGIN_N190  PRIORITY  2
+SEX_N220                      PRIORITY  2
+AGE_AT_DIAGNOSIS_N230         PRIORITY  2
+SEQUENCE_NUMBER_CENTRAL_N380  PRIORITY  2
+DATE_OF_DIAGNOSIS_N390        PRIORITY  2
+PRIMARY_SITE_N400             PRIORITY  2
+LATERALITY_N410               PRIORITY  2
+GRADE_N440                    PRIORITY  3
+DIAGNOSTIC_CONFIRMATION_N490  PRIORITY  2
+HISTOLOGIC_TYPE_ICD_O3_N522   PRIORITY  2
+BEHAVIOR_CODE_ICD_O3_N523     PRIORITY  2
+
