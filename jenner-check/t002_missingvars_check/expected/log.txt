@@ -1,0 +1,73 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Library INDATA assigned path=..
+NOTE: DATA indata.TUMOR
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote indata.TUMOR (5 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option OBS changed to MAX.
+NOTE: DATA ttvariables
+
+NOTE: Processing inline DATALINES (777 lines)
+
+NOTE: Read 777 rows from DATALINES.
+NOTE: Wrote ttvariables (777 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA ttvariables
+
+
+NOTE: Read 777 rows from ttvariables.
+NOTE: Wrote ttvariables (31 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=indata.TUMOR
+
+NOTE: PROC CONTENTS: OUT=sitelist created with 13 variables
+NOTE: PROC CONTENTS: data=indata.TUMOR obs=5 vars=13 (NOPRINT)
+NOTE: DATA sitelist
+
+
+NOTE: Read 13 rows from sitelist.
+NOTE: Wrote sitelist (13 rows, 16 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=ttvariables
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 31 rows from ttvariables.
+NOTE: Wrote ttvariables (31 rows, 3 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=sitelist
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 13 rows from sitelist.
+NOTE: Wrote sitelist (13 rows, 16 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA missingvars extravars includedvars
+
+NOTE: Multi-output DATA step splits stream into: missingvars extravars includedvars
+NOTE: Stream 1 processed 31 rows, max BY-group size: 1 (O(1) memory verified)
+NOTE: Stream 2 processed 13 rows, max BY-group size: 1 (O(1) memory verified)
+NOTE: Option TITLE changed to Variable-presence QC against the tumor table PRIORITY specification.
+NOTE: PROC SQL 
+
+NOTE: PROC SQL statement used.
+NOTE: Option TITLE changed to Missing PRIORITY variables -- required fields absent from the table.
+NOTE: PROC PRINT data=missingvars
+
+NOTE: PROC PRINT completed: 19 observations printed, 3 variables
+NOTE: Option TITLE changed to Included priority variables (present and specified).
+NOTE: PROC PRINT data=includedvars
+
+NOTE: PROC PRINT completed: 12 observations printed, 3 variables

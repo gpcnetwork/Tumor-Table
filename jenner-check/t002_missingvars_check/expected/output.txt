@@ -1,0 +1,50 @@
+                          Variable-presence QC against the tumor table PRIORITY specification                           
+
+                                     category   n
+---------------------------------------------  --
+Missing priority var (required, not in table)  19
+                Extra (in table, not in spec)   1
+             Included (present and specified)  12
+                          Missing PRIORITY variables -- required fields absent from the table                           
+
+
+                     VARIABLE      FLAG  TIMING
+-----------------------------  --------  ------
+CLASS_OF_CASE_N610             PRIORITY       2
+DERIVED_SS2000_N3020           PRIORITY       6
+DIAGNOSTIC_CONFIRMATION_N490   PRIORITY       2
+GRADE_CLINICAL_N3843           PRIORITY       4
+GRADE_N440                     PRIORITY       3
+GRADE_PATHOLOGICAL_N3844       PRIORITY       4
+GRADE_POST_THERAPY_N3845       PRIORITY       4
+RACE2_N161                     PRIORITY       2
+RACE3_N162                     PRIORITY       2
+RACE4_N163                     PRIORITY       2
+RACE5_N164                     PRIORITY       2
+REASON_FOR_NO_RADIATION_N1430  PRIORITY       4
+RX_HOSP_RADIATION_N690         PRIORITY       3
+RX_HOSP_SURG_PRIM_SITE_N670    PRIORITY       2
+RX_SUMM_RADIATION_N1360        PRIORITY       3
+RX_SUMM_SURG_PRIM_SITE_N1290   PRIORITY       2
+SEER_SUMMARY_STAGE2000_N759    PRIORITY       5
+SEQUENCE_NUMBER_CENTRAL_N380   PRIORITY       2
+SUMMARY_STAGE2018_N764         PRIORITY       4
+
+                                  Included priority variables (present and specified)                                   
+
+
+                    VARIABLE      FLAG  TIMING
+----------------------------  --------  ------
+AGE_AT_DIAGNOSIS_N230         PRIORITY       2
+BEHAVIOR_CODE_ICD_O3_N523     PRIORITY       2
+DATE_OF_DIAGNOSIS_N390        PRIORITY       2
+HISTOLOGIC_TYPE_ICD_O3_N522   PRIORITY       2
+LATERALITY_N410               PRIORITY       2
+PATID                         PRIORITY       1
+PRIMARY_SITE_N400             PRIORITY       2
+RACE1_N160                    PRIORITY       2
+SEQUENCE_NUMBER_HOSPITA_N560  PRIORITY       2
+SEX_N220                      PRIORITY       2
+SPANISH_HISPANIC_ORIGIN_N190  PRIORITY       2
+TUMOR_RECORD_NUMBER_N60       PRIORITY       1
+

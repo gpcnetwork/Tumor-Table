@@ -1,0 +1,39 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Library INDATA assigned path=..
+NOTE: DATA indata.TUMOR
+
+NOTE: Processing inline DATALINES (15 lines)
+
+NOTE: Read 15 rows from DATALINES.
+NOTE: Wrote indata.TUMOR (15 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT dxyear_f defined (16 ranges).
+NOTE: DATA tumor01
+
+
+NOTE: Read 15 rows from indata.TUMOR.
+NOTE: Wrote tumor01 (15 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Distribution of diagnosis years.
+NOTE: PROC FREQ
+NOTE: Output dataset work.dxyear_dist has 14 observations and 3 variables.
+NOTE: PROC FREQ statement used.
+NOTE: PROC PRINT data=work.dxyear_dist
+
+NOTE: PROC PRINT completed: 14 observations printed, 3 variables
+NOTE: Option TITLE changed to Diagnosis age.
+NOTE: PROC MEANS
+NOTE: Output dataset work.dxage_means has 1 observations and 11 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC PRINT data=work.dxage_means
+
+NOTE: PROC PRINT completed: 1 observations printed, 11 variables

@@ -1,0 +1,8 @@
+{
+  "source_file": "scr/TUMOR TABLE QC SCRIPT.sas",
+  "source_blob_sha": "efbf0a33810170d035e49c60fdff27027b2c6594",
+  "source_commit": "2ae5d827670eabaf11d7cb94141ea55655bc720f",
+  "tier": "real_data",
+  "notes": "Verbatim derived-variable QC: dxyear parsed from DATE_OF_DIAGNOSIS_N390, dxage from AGE_AT_DIAGNOSIS_N230 (999->missing); diagnosis-year distribution via PROC FREQ with the repo dxyear_f format, diagnosis-age summary via PROC MEANS. Mock indata.TUMOR spans 2008-2024; synthetic values.",
+  "bundle": "t003_dxyear_dxage"
+}
